@@ -99,4 +99,8 @@
       display: none;
     }
   }
+
+  .logo {
+    cursor: pointer;
+  }
  

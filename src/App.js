@@ -7,6 +7,9 @@ import Home from './pages/Home';
 import Media from './pages/Media'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import Gallery from './pages/Gallery'
+import Gigs from './pages/Gigs'
+
 
 function App() {
   return (
@@ -18,11 +21,11 @@ function App() {
           <Route path="/Media" element={<Media />} exact component={Media} />
           <Route path="/About" element={<About />} exact component={About} />
           <Route path="/Contact" element={<Contact />} exact component={Contact} />
+          <Route path="/Gallery" element={<Gallery />} exact component={Gallery} />
+          <Route path="/Gigs" element={<Gigs />} exact component={Gigs} />
         </Routes>
         <Footer />
       </Router>
-      
-      
     </div>
   )
 }

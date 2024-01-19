@@ -1,0 +1,22 @@
+export const Media = [
+    {type: 'video', url: require('./video-01.mp4')},
+    {type: 'image', url: require('./img-01.jpeg')},
+    {type: 'video', url: require('./video-02.mp4')},
+    {type: 'image', url: require('./img-02.jpeg')},
+    {type: 'video', url: require('./video-03.mp4')},
+    {type: 'image', url: require('./img-03.jpeg')},
+    {type: 'video', url: require('./video-04.mp4')},
+    {type: 'image', url: require('./img-04.png')},
+    {type: 'video', url: require('./video-05.mp4')},
+    {type: 'image', url: require('./img-05.jpeg')},
+    {type: 'video', url: require('./video-06.mp4')},
+    {type: 'image', url: require('./img-06.jpeg')},
+    {type: 'image', url: require('./img-07.jpeg')},
+    {type: 'video', url: require('./video-07.mp4')},
+    {type: 'video', url: require('./video-08.mp4')},
+    {type: 'video', url: require('./video-09.mp4')},
+    {type: 'video', url: require('./video-10.mp4')},
+    {type: 'video', url: require('./video-11.mp4')},
+    {type: 'video', url: require('./video-12.mp4')},
+
+];

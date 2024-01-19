@@ -6,7 +6,7 @@ import '../styles/Gigs.css'
 function Gigs() {
   return (
     <div className='gigs'>
-    <h1 className='gigTitle'>GIG</h1>
+    <h1 className='gigTitle'>FLYERS</h1>
     <div className='gigList'>
         {GigList.map((gigItem, key) => {
         return (

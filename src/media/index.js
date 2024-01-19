@@ -18,5 +18,11 @@ export const Media = [
     {type: 'video', url: require('./video-10.mp4')},
     {type: 'video', url: require('./video-11.mp4')},
     {type: 'video', url: require('./video-12.mp4')},
+    {type: 'video', url: require('./video-13.mp4')},
+    {type: 'video', url: require('./video-14.mp4')},
+    {type: 'video', url: require('./video-15.mp4')},
+    {type: 'video', url: require('./video-16.mp4')},
+    {type: 'video', url: require('./video-17.mp4')},
+    {type: 'video', url: require('./video-18.mp4')},
 
 ];

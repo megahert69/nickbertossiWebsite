@@ -6,9 +6,7 @@
 }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: black
@@ -28,12 +26,11 @@ code {
 }
 
 .container h1{
-  color:white;
-  text-align: center;
-  padding: 15px;
-  font-size: 40px;
-  font-weight: bold;
-
+  font-size: 60px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;;
+  height: 60px;
+  font-weight: 50;
+  color: white;
 }
 
 .container .media-container {

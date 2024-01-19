@@ -3,24 +3,27 @@ import React from 'react'
 import { MediaList } from '../helpers/GigList'
 import MediaItem from '../components/GigItem'
 import '../styles/Media.css'
+import videoBg from '../media/video-bg.mp4'
+
+
+
 
 function Media() {
   return (
     <div className='media'>
-        <h1 className='mediaTitle'>GIG HIGHLIGHTS</h1>
-        {/* <div className='mediaList'>
-            {MediaList.map((mediaItem, key) => {
-            return (
-                <MediaItem 
-                    key={key}
-                    event={mediaItem.event}
-                    promoter={mediaItem.promoter}
-                    location={mediaItem.location}
-                    image={mediaItem.image}
-                />
-                )
-            })}
-        </div>  */}
+      <video autoPlay loop muted id='video'>
+        <source src={videoBg} type='video/mp4' />
+      </video>
+    
+        <h1 className='mediaTitle'>Recordings & Bootlegs</h1>
+        <div className='soundcloud'>
+          <ReactPlayer controls height='100px' url="https://www.mixcloud.com/nickbertossi/nick-bertossi-live-bear-puddle/"
+          />
+        </div>
+        <div className='soundcloud'>
+          <ReactPlayer controls height='100px' url="https://www.mixcloud.com/nickbertossi/nick-bertossi-proudfm-radio-show/"
+          />
+        </div>
         <div className='soundcloud'>
           <ReactPlayer controls height='100px' url="https://soundcloud.com/nick_bertossi/bloody-mary-nick-bertossi?in=nick_bertossi/sets/top-40-edits&si=440dede396484b3991218188119237ff&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
           />
@@ -49,6 +52,7 @@ function Media() {
           <ReactPlayer controls height='100px' url="https://soundcloud.com/nick_bertossi/kiss-me-more-nick-bertossi?in=nick_bertossi/sets/top-40-edits&si=3ca5bc76841849cead2e21576f1365f0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
           />
         </div> 
+        
     </div>
   );
 }

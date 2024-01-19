@@ -3,11 +3,14 @@ import { Link, useNavigate } from 'react-router-dom'
 import BannerImage from '../assets/bgImage.jpeg'
 import '../styles/Home.css'
 
+
+
 function Home() {
 
   const navigate = useNavigate();
 
   return (
+    
     <div className='home' style={{backgroundImage:`url(${BannerImage})` }}>
       <div className='headerContainer' >
         <h1>NICK BERTOSSI</h1>
@@ -16,9 +19,7 @@ function Home() {
         <button onClick={() =>navigate("/contact")}>
             BOOKINGS
         </button>
-      </div>
-
-      <div className='rightSideVideo'>
+        
         
       </div>
     </div>
